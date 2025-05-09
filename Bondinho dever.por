@@ -1,14 +1,47 @@
 programa
 {
-	inteiro numero, soma = 0
+	inteiro A, M
 	funcao inicio()
 	{
-		para(inteiro i = 1; i<=7; i++){
-			escreva("Digite o numero que deseja somar:")
-			leia(numero)
-			soma = soma + numero
-		}
-		escreva("A somatoria dos seus 7 numeros foi: ",soma)
+		escreva("Digite o número de alunos: ")
+		leia(A)
+		
+		escreva("escreva o número de monitores: ")
+		leia(M)
+		
+
+		se(A+M>50){
+		escreva( "Não pode subir")}
+
+
+		senao
+		{escreva("pode ir")}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 235; 
+ * @POSICAO-CURSOR = 167; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

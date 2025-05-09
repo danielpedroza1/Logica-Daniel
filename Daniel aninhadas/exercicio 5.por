@@ -1,6 +1,6 @@
 programa
 {
-	inteiro a, b, incre
+	inteiro a, b, incre, v , t
 	funcao inicio()
 	{
 		escreva("Digite o primeiro número: ")
@@ -14,10 +14,32 @@ programa
 		escreva("Digite o valor do incremento: ")
 		leia(incre)
 		escreva("\n")
+          
+		enquanto(  a <= b){
+		
+		 
+		a = a + incre
+		
+		escreva(a, " ")
+		
+		
+		}
 
-		enquanto( a + incre < b)
-		escreva("sequencia", "  ")
-		incre = incre + a
+	    enquanto( a >= b){
+	    	escreva(b, " ")
+	    b = b + incre
+	    
+	    
+	    
+	    
+	    }
+	
+	
+	
+	
+	
+	
+	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 344; 
+ * @POSICAO-CURSOR = 376; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,6 +1,6 @@
 programa
 {
-	 inteiro numero1 , numero2 , numero3, a
+	 inteiro num1 , num2 , num3, a
 	funcao inicio()
 	{
 		  escreva("Digite o primeiro valor: ")
@@ -9,8 +9,8 @@ programa
 	      	leia(num2) 
 	      	escreva("Digite o valor incresento: ")
 	      	leia(num3) 
-	      para( i = numero1; numero2 > i; i +=numero3){
-	          escreva(a)  
+	      para( a = num1; num2 >= a; a +=num3){
+	          escreva(a)  }
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 54; 
+ * @POSICAO-CURSOR = 283; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
